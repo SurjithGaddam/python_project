@@ -99,6 +99,9 @@ Cloud and big data tools (e.g., AWS, Azure, Spark) are more relevant to Data Eng
 Visualization tools like Tableau are more prominent for Data Analysts, while Data Scientists emphasize programming and statistical skills.
 
 ## 2. How are in-demand skills trending for Data Analysts?
+To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
+
+View my notebook with detailed steps here: [3_skills_trend.ipynb](3_project\3_skills_trend.ipynb)
 
 ### Visualize Data 
 
@@ -142,7 +145,10 @@ Python and Tableau: Have moderate and consistent demand, highlighting their seco
 Power BI: Shows consistent, though lower, relevance compared to Tableau.
 
 # 3. How well do jobs and skills pay for Data Analysis?
-### Salary Analysis for Data Jobs 
+To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
+
+View my notebook with detailed steps here:
+[4_salary_analysis](3_project\4_salary_analysis.ipynb)
 
 ''' python 
 sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order, color='brown')
@@ -206,6 +212,10 @@ R, SQL, and SAS remain key for statistical and database work.
 Key Takeaway: Specialized skills offer higher pay, while foundational tools ensure wide demand across industries.
 
 ### 4. What is the most optimal skill to learn for Data Analysts?
+To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
+
+View my notebook with detailed steps here: [5_optimal_skills.ipynb](3_project\5_optimal_skills.ipynb)
+
 ''' python
 rom adjustText import adjust_text
 sns.scatterplot(
