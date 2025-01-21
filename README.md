@@ -16,8 +16,8 @@ For my deep dive into the data analyst job market, I harnessed the power of seve
 
 ##### Python: 
 The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
-##### Pandas Library:
- This was used to analyze the data.
+##### Pandas Library: 
+This was used to analyze the data.
 ##### Matplotlib Library:
  I visualized the data.
 ##### Seaborn Library: 
