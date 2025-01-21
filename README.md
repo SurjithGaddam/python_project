@@ -72,7 +72,7 @@ for i, job_title in enumerate(job_titles):
    '''
    ### Results
 
-   ![Visualization of Top Skills](3_project\images\skills_demand.png)
+   ![Visualization of Top Skills](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/skills_demand.png)
    *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
    ###  Insights 
