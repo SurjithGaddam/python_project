@@ -219,7 +219,7 @@ Key Takeaway: Specialized skills offer higher pay, while foundational tools ensu
 ### 4. What is the most optimal skill to learn for Data Analysts?
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
-View my notebook with detailed steps here: [5_optimal_skills.ipynb](3_project\5_optimal_skills.ipynb)
+View my notebook with detailed steps here: [5_optimal_skills.ipynb](https://github.com/SurjithGaddam/python_project/blob/main/3_project/5_optimal_skills.ipynb)
 
 ''' python
 rom adjustText import adjust_text
