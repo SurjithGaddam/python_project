@@ -57,7 +57,7 @@ df_US = df[df['job_country'] == 'United States']
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing whihch skills I should pay attention to depending on the role I'm targeting. 
 
-View my noteboook with detailed steps here: [2_skill_Demandt.ipynb](3_project\2_skill_Demandt.ipynb)
+View my noteboook with detailed steps here: [2_skill_Demandt.ipynb](https://github.com/SurjithGaddam/python_project/blob/main/3_project/2_skill_Demandt.ipynb)
 
 
 ### Visualize Data 
