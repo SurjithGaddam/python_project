@@ -150,7 +150,7 @@ Power BI: Shows consistent, though lower, relevance compared to Tableau.
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
 View my notebook with detailed steps here:
-[4_salary_analysis](3_project\4_salary_analysis.ipynb)
+[4_salary_analysis](https://github.com/SurjithGaddam/python_project/blob/main/3_project/4_salary_analysis.ipynb)
 
 ''' python 
 sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order, color='brown')
