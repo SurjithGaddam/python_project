@@ -230,7 +230,7 @@ sns.set_theme(style='ticks')
 texts =[]         
 for i, txt in enumerate(df_DA_skills_high_demand.index):
     texts.append(plt.text(df_DA_skills_high_demand['skills_percent'].iloc[i],df_DA_skills_high_demand['median_salary'].iloc[i],txt))
-![Most Optimal Skills for Data Analysts in the US](3_project\images\optimal_skills.png)
+![Most Optimal Skills for Data Analysts in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/optimal_skills.png)
 *A scatter plot visualizing the most optimal skills (high paying and high demand) for data analysts in the US.*
 ### Insights
 High Salary, Low Demand: Specialized skills like Oracle and Go ($90K–$98K) are less in demand (<20%).
