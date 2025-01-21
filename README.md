@@ -118,7 +118,7 @@ plt.xlabel('2023')
 plt.legend().remove()
 '''
 
-![Trending Top Skills for Data Analyst in the US](3_project\images\skills_trend.png)
+![Trending Top Skills for Data Analyst in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/skills_trend.png)
 *Line Chart visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights:
