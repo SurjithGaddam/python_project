@@ -73,6 +73,7 @@ for i, job_title in enumerate(job_titles):
    ### Results
 
    ![Visualization of Top Skills](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/skills_demand.png)
+   
    *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
    ###  Insights 
@@ -119,6 +120,7 @@ plt.legend().remove()
 '''
 
 ![Trending Top Skills for Data Analyst in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/skills_trend.png)
+
 *Line Chart visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights:
@@ -165,6 +167,7 @@ plt.show()
 ## Results 
 
 ![Salary Distributions of Data Jobs in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/Salary_analysis.png)
+
 *Box plot visualizing the salary distributions fo the top 6 data job titles.*
 
 # Insights 
@@ -195,7 +198,9 @@ ax[0].xaxis.set_major_formatter(FuncFormatter(lambda x, _: f'{int(x/1000)}K'))
 '''
 
 ## Result 
-![The Hightest Paid & Most In-Demand Skills for Data Analysts in the US](3_project\images\Highestpaid_&_most_demand_skills.png)*Graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+![The Hightest Paid & Most In-Demand Skills for Data Analysts in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/Highestpaid_%26_most_demand_skills.png)
+
+*Graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 ## insights 
 
@@ -231,6 +236,7 @@ texts =[]
 for i, txt in enumerate(df_DA_skills_high_demand.index):
     texts.append(plt.text(df_DA_skills_high_demand['skills_percent'].iloc[i],df_DA_skills_high_demand['median_salary'].iloc[i],txt))
 ![Most Optimal Skills for Data Analysts in the US](https://github.com/SurjithGaddam/python_project/blob/main/3_project/images/optimal_skills.png)
+
 *A scatter plot visualizing the most optimal skills (high paying and high demand) for data analysts in the US.*
 ### Insights
 High Salary, Low Demand: Specialized skills like Oracle and Go ($90K–$98K) are less in demand (<20%).
